@@ -1,175 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Green Guardians – 'Protecting Nature, one adventure at a time!'</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-
-  <header>
-    <h1>The Green Guardians</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#explore">Explore</a></li>
-        <li><a href="#environmental-conservation">Environmental Conservation</a></li>
-        <li><a href="#tree-planting">Tree Planting</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="About" class="section">
-  <section class="card-container">
-    <div class="card">
-    <h2>Welcome to the Green Guardians.</h2>
-    <p>We are passionate about nature and are here to guard it! </p>
-    <img src="assets/image2.jpg" alt="my image"/>
-    <img src="assets/image3.jpg" alt="my image"/>
-    <button onclick="contactFormScroll()">Connect with Us</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Green Guardians</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="bg-white font-sans text-[#1f2d27]">
+ <header class="flex items-center justify-between px-6 py-4 shadow bg-white">
+   <nav class="flex space-x-4 text-sm text-gray-700">
+    <a href="#about" class="hover:text-green-600">About</a>
+    <a href="#explore" class="hover:text-green-600">Explore</a>
+  </nav>
+  <h1 class="text-2xl font-bold text-green-700 text-center absolute left-1/2 transform -translate-x-1/2">
+    The Green Guardians
+  </h1>
+  <nav class="flex space-x-4 text-sm text-gray-700">
+    <a href="#environmental-conservation" class="hover:text-green-600">Environmental Conservation</a>
+    <a href="#tree-planting" class="hover:text-green-600">Tree Planting</a>
+    <a href="#learn-more" class="hover:text-green-600">Learn More</a>
+    <a href="#contact-us" class="hover:text-green-600">Contact Us</a>
+  </nav>
+</header>
+<section id="About" class="bg-white py-16 px-4 flex justify-center">
+  <div class="bg-emerald-600 rounded-[40px] max-w-5xl w-full py-32 px-8 md:py-40 md:px-16 text-center shadow-md relative overflow-hidden text-white">
+   <img src="assets/image2.jpg" alt="Illustration Left" class="absolute top-0 left-0 w-36 md:w-48 rounded-full -translate-x-1/4 -translate-y-1/4" />
+    <img src="assets/image3.jpg" alt="Illustration Right" class="absolute bottom-0 right-0 w-36 md:w-48 rounded-full translate-x-1/4 translate-y-1/4" />
+    <h2 class="text-3xl md:text-5xl font-bold mb-4">
+      Welcome to the Green Guardians
+    </h2>
+    <p class="text-lg md:text-xl mb-6 max-w-xl mx-auto">
+      We are passionate about nature and are here to guard it!
+    </p>
+    <button onclick="contactFormScroll()"
+      class="bg-white text-emerald-700 hover:bg-gray-100 font-semibold py-3 px-8 rounded-full transition">
+      Connect with Us
+    </button>
+  </div>
+</section>
+ <section id="Explore" class="bg-[#fefcfb] py-20 px-4">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+  <div class="flex-1 text-center md:text-left">
+   <p class="uppercase text-sm tracking-wider text-gray-500 mb-2">Explore</p>
+    <h2 class="text-3xl md:text-5xl font-bold text-emerald-900 mb-6">
+        We are Forest Trail Explorers
+    </h2>
+      <p class="text-lg text-gray-700 mb-6 max-w-md">
+       Join us on a nature walk and discover the diversity of nature.
+       Listen to the birds, trees, and animals. Can you identify them? Learn to identify plants, insects, and animals!
+      </p>
+      <button class="bg-emerald-900 text-white hover:bg-emerald-800 font-semibold py-3 px-6 rounded-full transition">
+        Explore
+      </button>
+    </div>
+    <div class="flex-1">
+      <div class="bg-emerald-900 rounded-[40px] p-4 md:p-6 lg:p-8 overflow-hidden shadow-lg">
+        <img src="assets/image4.jpg" alt="Ecosystem" class="rounded-[30px] w-3/4 h-auto object-cover"/>
+      </div>
+</section>
+<section id="Environmental conservation" class="bg-white">
+  <div class="max-w-5xl w-full space-y-8 text-center">
+    <p class="uppercase text-sm tracking-wider text-gray-500">Environmental conservation</p>
+    <div class="bg-white">
+      <h2 class="text-2xl font-bold mb-2">We like it clean here</h2>
+      <p>Let us ensure zero waste around us.</p>
+      <p>Pick up trash and learn to dispose off in the right way!</p>
+       <div class="flex flex-col md:flex-row gap-8 justify-center">
+  <div class="bg-green-700 rounded-xl p-4 shadow-md w-full md:w-1/2">
+    <img src="assets/image6.jpeg" alt="Clean Up" class="w-full h-48 object-cover rounded-md mb-4" />
+    <h3 class="text-xl font-semibold text-white">Clean-Up Action</h3>
+    <p class="text-white">Join a clean-up initiative to keep our environment waste-free and beautiful.</p>
+  </div>
+  <div class="bg-green-700 rounded-xl p-4 shadow-md w-full md:w-1/2">
+    <img src="assets/image7.jpg" alt="Sort Waste" class="w-1/2 h-48 object-cover rounded-md mb-4 mx-auto" />
+    <h3 class="text-xl font-semibold text-white">Waste Sorting</h3>
+    <p class="text-white">Learn how to sort and dispose of waste properly to support zero waste goals.</p>
+  </div>
+</div>
+  <div class="w-full text-left space-y-8">
+    <p class="uppercase text-sm tracking-wider text-gray-500">Tree Planting</p>
+    <div class="bg-[#e7f7ed] p-6 rounded-l shadow-md w-full">
+      <h2 class="text-2xl font-bold mb-4">Tree Planting Projects</h2>
+     <div class="flex gap-4 mb-4 justify-center">
+  <img src="assets/image9.jpeg" alt="Tree Planting" class="w-1/2 h-48 object-cover rounded-md" />
+  <img src="assets/image8.jpg" alt="Watering Tree" class="w-1/2 h-48 object-cover rounded-md" />
+</div>
+      <p class="text-center font-bold text-lg max-w-xl mx-auto">
+  We manage our waste and bring more life by planting trees with a bright smile!
+</p>
+  <img class="w-1/4 h-50 object-cover rounded-md mb-4 mx-auto" src="assets/image10.jpg" alt="Smiling while planting" />
+      <p class="text-center font-bold text-lg max-w-xl mx-auto">Bonus tip: Give your tree a name and care for it weekly!</p>
+ <div class="flex justify-center">
+  <button onclick="contactFormScroll()" class="px-6 py-2 bg-green-700 text-white rounded-full hover:bg-green-800">
+    Plant a tree!
+  </button>
+</div>
 </div>
 </section>
-<section id="Explore" class="section">
-    <section class="card-container">
-      <div class="card">
-      <h2>We are Forest Trail Explorers</h2>
-      <p>Join the green guardians on a nature walk and discover the diversity of nature</p>
-      <img src="assets/image4.jpg" alt="my image"/>
-      <p>Listen to birds, trees, and animals. Can you identify the sounds of nature?</p>
-      <p> Learn to identify plants, insects and animals!</p>
-      <img src="assets/image5.jpg" alt="my image"/>
-      <button onclick="contactFormScroll()">Explore</button>
+<section id="Testimonials" class="bg-white">
+  <div class="max-w-5xl w-full space-y-8 text-left">
+    <p class="uppercase text-sm tracking-wider text-gray-500">Testimonials</p>
+    <div class="bg-white">
+    <div class="flex flex-col lg:flex-row items-start gap-8 px-6 py-10">
+   <div class="lg:w-1/3">
+    <h2 class="text-2xl font-bold mb-4">What the Community Says</h2>
+    <p class="text-gray-700">
+      Our community is at the heart of Green Guardians. Here’s what they’re saying about the positive impact we're making together for the planet.
+    </p>
   </div>
-  </section>
-  <section id="Environmental-Conservation" class="section">
-    <section class="card-container">
-      <div class="card">
-      <h2>We like it clean here</h2>
-      <p>Let us ensure zero waste around us </p>
-      <p> Pick up trash around you and learn how to dispose of it the right way!</p>
-      <img src="assets/image6.jpeg" alt="my image"/>
-      <p>Sort your trash, compost food scraps, and reduce what you throw away to keep the planet clean!</p>
-      <img src="assets/image7.jpg" alt="my image"/>
-      <button onclick="contactFormScroll()">Be the zero waste champion!</button>
-  </div>
-  </section>
-  <section id="Tree Planting" class="section">
-    <section class="card-container">
-      <div class="card">
-      <h2>Tree planting Projects</h2><img src="assets/image9.jpeg" alt="my image"/>
-      <p>We not only manage our waste but also bring forth more life by planting trees and we give a bright smile while at it</p>
-      <img src="assets/image8.jpg" alt="my image"/>
-      <p> You are wondering how?</p>
-      <p> We got you! We are going to learn the major steps for planting a tree</p>
-      <ol>
-        <li><strong>Pick a Spot:</strong> Choose a sunny place with space for roots to grow.</li>
-        <li><strong>Dig a Hole:</strong> Make it twice as wide as the tree's root ball.</li>
-        <li><strong>Place the Tree:</strong> Gently lower the tree into the hole, keeping it straight.</li>
-        <li><strong>Cover & Water:</strong> Fill the hole with soil, pat it down, and water it well!</li>
-      </ol>
-      <p>Bonus: Give your tree a name and take care of it every week!</p>
-      <img src="assets/image10.jpeg" alt="my image"/>
-      <button onclick="contactFormScroll()">Plant a tree!</button>
-  </div>
-  </section>
-  <section class="resources">
-    <h3>Resources for our projects</h3>
-    <div class="cards">
-      <div class="card">
-        <h4>Articles & Guides</h4>
-        <p>Practical guide on environmental conservation, how to plant and grow trees.</p>
-        <button>Explore</button>
-      </div>
-      <div class="card">
-        <h4>Gallery</h4>
-        <p>Club activities and projects</p>
-        <button>Explore</button>
-      </div>
-      <div class="card">
-        <h4>Webinars & Workshops</h4>
-        <p>Live and recorded sessions with dedicated young environmentalists.</p>
-        <button>Explore</button>
-      </div>
-    </div>
-  </section>
-  <section class="faq">
-    <h3>Frequently Asked Questions</h3>
-    <ul>
-      <li>How do I join the Green Guardians?</li>
-      <li>What benefits does one get to be a member?</li>
-      <li>What’s the membership subscription?</li>
-      <li>Can I support projects without being a member?</li>
-      <li>Are Green Guardians activities suitable for kids?</li>
-    </ul>
-  </section>
-    <section class="testimonials">
-    <h3>What Our Community is saying</h3>
-    <blockquote>
-      "I'm proud to see my child learning the value of trees and nature through the Green Guardian Club. It's more than just planting; it’s character building."
-
-      "Since joining Green Guardians, my daughter has become passionate about recycling and conserving water at home. It's truly inspiring."
-      <cite>— Parents/Guardians</cite>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:grid-cols-2 lg:w-2/3">
+  <div class="bg-white shadow-md rounded-xl p-4">
+   <blockquote>
+      "I'm proud to see my child learning the value of trees and nature through the Green Guardians Club. It's more than just planting; it’s character building.
+       Since joining Green Guardians, my daughter has become passionate about recycling and conserving water at home. It's truly inspiring.
+      <cite class="block mt-2 font-bold italic"> — Henry,Parent</cite>
     </blockquote>
-    <blockquote>
-      "I planted my first tree with Green Guardians and named it! Now I know I’m helping the Earth grow stronger."
-
-      "We cleaned the riverbank and planted trees—it felt amazing to do something good for nature with my friends."
-      <cite>— Students, Highridge Group of schools</cite>
+    </div>
+    <div class="bg-white shadow-md rounded-xl p-4">
+      <blockquote>
+      "I planted my first tree with the Green Guardians and named it! Now I know I’m helping the Earth grow stronger.
+       We cleaned the riverbank and planted trees;it felt amazing to do something good for nature with my friends."
+      <cite class="block mt-2 font-bold italic">— Mercy, Student, IYF, The Weekend Academy</cite>
     </blockquote> 
-    <blockquote>
-      "Thanks to the Green Guardians, our village is greener, and the youth are more involved in protecting the environment."
-
-      "Their tree-planting events have united the community. It's beautiful to see kids leading the way in conservation."
-       <cite>— Communinity, Greenways</cite>
-    </blockquote>
-    <blockquote>
-        "Collaborating with Green Guardians has been a joy. Their commitment to reforestation and sustainability is unmatched."
-
-        "We support Green Guardians because they create real, grassroots impact—and the enthusiasm of their young members is contagious."
-        <cite>— Partners </cite>
-    </blockquote>
-  </section>
-  <section id="Contact Us" class="section">
-  <section class="card-container">
-   <div class="card">
-    <h2>Get in touch with us today</h2>
-    <p>You want to make a difference? reach to us today </p>
-   </div>
-  </section>
-  <section class="contact" id="contact">
-    <h3>Contact Details: Send Us a Message</h3>
-    <p>Email: <a href="mailto:info@greenguardians.com">info@greenguardians.com</a></p>
-    <p>Phone: +5 (254) 978 -54321</p>
-    <p>Address: 897 GG Towers, Green Avenue, GA 50270</p>
-
-    <form>
-      <label>Email</label>
-      <input type="email" required />
-
-      <label>Message</label>
-      <textarea required></textarea>
-
-      <button type="submit">Send Message</button>
-      <p>We shall surely get back to you soonest!</p>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Green Guardians. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="#instagram">Instagram</a>
-      <a href="#facebook">Facebook</a>
-      <a href="youtube#">YouTube</a>
-      <a href="linkedin#">LinkedIn</a>
     </div>
-    <div class="footer-policy">
-      <a href="#">Terms of Use</a>
-      <a href="#">Privacy Policy</a>
+    <div class="bg-white shadow-md rounded-xl p-4">
+       <blockquote>
+      "Thanks to the Green Guardians, our environment is greener, and the youth are more involved in protecting the environment.
+       Their tree-planting events have united the community. It's beautiful to see kids leading the way in conservation."
+       <cite class="block mt-2 font-bold italic">— IYF Community</cite>
+    </blockquote>
     </div>
-  </footer>
-
+    <div class="bg-white shadow-md rounded-xl p-4">
+      <blockquote>
+        "Collaborating with Green Guardians has been a joy. Their commitment to reforestation and sustainability is unmatched.
+        We support Green Guardians because they create real, grassroots impact—and the enthusiasm of their young members is contagious."
+        <cite class="block mt-2 font-bold italic">— Our Partners </cite>
+    </blockquote>
+  </div>
+  </section>
+<section class="flex justify-center items-center px-4 py-8 bg-white">
+  <div class="bg-white p-6 rounded-xl shadow-md w-full max-w-4xl">
+    <div class="flex flex-wrap items-center gap-6">
+      <p class="font-semibold w-full lg:w-auto items-center">                                                       
+        Our Partners:</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-30 items-center justify-items-center">
+      <img src="assets/image12.jpg" alt="Rotary International" class="h-12" />
+      <img src="assets/image13.jpg" alt="KFS" class="h-12" />
+      <img src="assets/image14.jpeg" alt="KWS" class="h-12" />
+      <img src="assets/image15.jpeg" alt="NEMA" class="h-20" />
+    </div>
+  </div>
+</section>
+<section id="Learn More" class="bg-white">
+  <div class="max-w-5xl w-full space-y-8 text-center">
+    <p class="uppercase text-sm tracking-wider text-gray-500">Learn More!</p>
+    <div class="bg-white">
+      <h2 class="text-2xl font-bold mb-2">Want to dig deeper? Explore more resources and grow with us!</h2>
+        <div class="flex flex-col md:flex-row gap-8 justify-center">
+  <div class="bg-green-700 rounded-xl p-4 shadow-md w-full md:w-1/2">
+        <h3 class="text-xl font-semibold text-white">Articles and Guides</h3>
+    <p class="text-white">Practical guide on environmental conservation, how to plant and grow trees.</p>
+    <button onclick="contactFormScroll()" class="px-6 py-2 bg-white text-emerald-900 rounded-full hover:bg-green-800">
+    Learn More!
+  </button>
+  </div>
+  <div class="bg-green-700 rounded-xl p-4 shadow-md w-full md:w-1/2">
+    <h3 class="text-xl font-semibold text-white">Gallery</h3>
+    <p class="text-white">Club activities and projects</p>
+    <button onclick="contactFormScroll()" class="px-6 py-2 bg-white text-emerald-900 rounded-full hover:bg-green-800">
+    Learn More!
+  </button>
+  </div>
+  <div class="bg-green-700 rounded-xl p-4 shadow-md w-full md:w-1/2">
+    <h3 class="text-xl font-semibold text-white">Workshops and Webinars</h3>
+    <p class="text-white">Live and recorded sessions with dedicated young environmentalists.</p>
+    <button onclick="contactFormScroll()" class="px-6 py-2 bg-white text-emerald-900 rounded-full hover:bg-green-800">
+    Learn More!
+  </button>
+  </div>
+</div>
+  </section>
   <script src="script.js"></script>
-</body>
+  </body>
 </html>
