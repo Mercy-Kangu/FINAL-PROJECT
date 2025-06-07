@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solus Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 bg-white shadow">
+      <h1 class="text-2xl font-bold text-gray-900">Solus</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#" class="hover:text-blue-600">About</a>
+        <a href="#" class="hover:text-blue-600">Services</a>
+        <a href="#" class="hover:text-blue-600">Therapists</a>
+        <a href="#" class="hover:text-blue-600">Resources</a>
+        <a href="#" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-16 bg-blue-50">
+      <h2 class="text-4xl font-semibold mb-4">Find Support, Guidance, and Balance.</h2>
+      <p class="text-lg mb-6">We’re Here to Support You</p>
+      <p class="max-w-xl mx-auto text-gray-600 mb-6">
+        Whether you have questions, need help getting started, or want to learn more — reach out anytime.
+      </p>
+      <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Get in Touch</a>
+    </section>
+
+    <!-- Contact Details -->
+    <section class="py-12 px-4 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-2xl font-bold mb-4">Contact Details: Send Us a Message</h3>
+        <ul class="space-y-2 text-gray-700">
+          <li>Email: support@solus.com</li>
+          <li>Phone: +1 (123) 456-7890</li>
+          <li>Address: 123 Wellness Way, Calm City, CA 90210</li>
+        </ul>
+      </div>
+      <form class="space-y-4">
+        <input type="text" placeholder="Email" class="w-full p-3 border rounded" />
+        <textarea placeholder="Message" class="w-full p-3 border rounded"></textarea>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-gray-100 py-12 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold mb-6">Frequently Asked Questions</h3>
+        <ul class="space-y-4">
+          <li>How do I book a therapy session?</li>
+          <li>Are online sessions available?</li>
+          <li>What’s the difference between therapy and coaching?</li>
+          <li>Can I switch therapists if I don’t feel the right connection?</li>
+          <li>Do I need a subscription to access services?</li>
+          <li>Is my information and session history kept confidential?</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="py-12 px-4 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">You’re Not Alone on This Journey</h3>
+      <p class="text-gray-600 mb-6">Connect with others, share experiences, and find encouragement in a safe, supportive space.</p>
+      <a href="#" class="text-blue-600 font-medium">Join the Community</a>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="py-12 px-4 bg-blue-50">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-bold mb-6">Resources for Your Well-being</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded shadow">
+            <h4 class="font-semibold mb-2">Articles & Guides</h4>
+            <p class="text-sm text-gray-600 mb-2">Practical tips on stress management, mindfulness, and emotional resilience.</p>
+            <a href="#" class="text-blue-600 text-sm">Explore</a>
+          </div>
+          <div class="bg-white p-6 rounded shadow">
+            <h4 class="font-semibold mb-2">Meditation & Relaxation</h4>
+            <p class="text-sm text-gray-600 mb-2">Audio sessions for guided meditation and deep breathing exercises.</p>
+            <a href="#" class="text-blue-600 text-sm">Explore</a>
+          </div>
+          <div class="bg-white p-6 rounded shadow">
+            <h4 class="font-semibold mb-2">Webinars & Workshops</h4>
+            <p class="text-sm text-gray-600 mb-2">Live and recorded sessions with mental health professionals.</p>
+            <a href="#" class="text-blue-600 text-sm">Explore</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-12 px-4 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6">What Our Clients Are Saying</h3>
+      <div class="space-y-6">
+        <blockquote class="bg-gray-100 p-6 rounded shadow">
+          <p class="mb-2">"Solus made it so easy to find the right therapist for me. The sessions have truly transformed my mindset, and I feel more in control of my emotions than ever before!"</p>
+          <footer class="text-sm text-gray-600">&mdash; Anna R., 32</footer>
+        </blockquote>
+        <blockquote class="bg-gray-100 p-6 rounded shadow">
+          <p class="mb-2">"I was struggling with stress and anxiety, but the mindfulness programs on Solus have helped me regain balance. I finally feel like I'm prioritizing my mental well-being."</p>
+          <footer class="text-sm text-gray-600">&mdash; Mark S., 41</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-12 px-4 bg-blue-50">
+      <div class="max-w-5xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-4">Your Path to Well-being</h3>
+        <p class="text-gray-600 mb-6">Discover expert guidance for a healthier mind and balanced life.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="font-semibold mb-2">One-on-One Therapy</h4>
+          <p class="text-sm text-gray-600">Virtual and in-person therapy sessions with licensed professionals.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="font-semibold mb-2">Mindfulness & Meditation</h4>
+          <p class="text-sm text-gray-600">Guided meditation sessions and stress management techniques.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="font-semibold mb-2">Wellness Coaching</h4>
+          <p class="text-sm text-gray-600">Personalized guidance to help you build healthier habits and achieve balance in all areas of your life.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-sm p-6 mt-12">
+      <div class="max-w-5xl mx-auto flex flex-wrap justify-between">
+        <div class="space-y-1">
+          <p>Solus</p>
+          <p>Instagram | Facebook | YouTube | LinkedIn</p>
+        </div>
+        <div class="space-y-1">
+          <p>Terms of use</p>
+          <p>Privacy Policy</p>
+          <p>© [2035] Solus. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
